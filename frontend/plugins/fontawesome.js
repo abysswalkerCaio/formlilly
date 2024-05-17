@@ -7,9 +7,10 @@ import {
   faLinkedin,
   faGithub,
   faYoutube,
+  faPinterest,
 } from "@fortawesome/free-brands-svg-icons";
 
-library.add(fas, faLinkedin, faGithub, faYoutube);
+library.add(fas, faLinkedin, faGithub, faYoutube, faPinterest);
 
 config.autoAddCss = false;
 

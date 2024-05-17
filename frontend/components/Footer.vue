@@ -11,6 +11,7 @@
           I'm a fullstack developer who not only masters the secrets of both
           back-end and front-end, but also translates them into digital
           experiences that transcend expectations, bringing every pixel to life
+          with innovation and technical excellence.
         </p>
       </div>
       <div class="flex flex-col">

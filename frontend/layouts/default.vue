@@ -22,6 +22,10 @@ const links = ref([
     to: " https://www.youtube.com/@gaiuskuste",
     icon: "fa-brands fa-youtube",
   },
+  {
+    to: "https://br.pinterest.com/abysswalkerCaio",
+    icon: "fa-brands fa-pinterest",
+  },
 ]);
 </script>
 
