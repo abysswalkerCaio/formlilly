@@ -15,7 +15,7 @@
         combining ease of use with advanced features for maximum efficiency.
       </p>
       <div class="flex flex-col sm:flex-row gap-4">
-        <DefaultLogInButton :content="'Log In'" :to="'/'" />
+        <DefaultLogInButton :content="'Log In'" :to="'/login'" />
         <DefaultSignUpButton :content="'Sign Up'" :to="'/'" />
       </div>
     </div>

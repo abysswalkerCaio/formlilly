@@ -1,5 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  app: {
+    pageTransition: { name: "page", mode: "out-in" },
+  },
   devtools: { enabled: true },
   css: [
     "~/assets/css/main.css",
@@ -22,7 +25,7 @@ export default defineNuxtConfig({
       "@fortawesome/vue-fontawesome",
     ],
   },
-  modules: ["@nuxt/ui"],
+  modules: ["@nuxt/ui", "@vee-validate/nuxt"],
   runtimeConfig: {
     public: {
       baseUrl: process.env.API_URL,
