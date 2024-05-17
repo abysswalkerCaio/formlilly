@@ -7,14 +7,13 @@
 <script setup lang="ts">
 useHead({
   titleTemplate: (titleChunk) => {
-    return titleChunk
-      ? `${titleChunk} - FormLilly`
-      : "FormLilly";
+    return titleChunk ? `${titleChunk} - FormLilly` : "FormLilly";
   },
   meta: [
     {
       name: "description",
-      content: "Efficient form builder with Nuxt 3 and Laravel 10, supported by robust authentication provided by Laravel Sanctum.",
+      content:
+        "Efficient form builder with Nuxt 3 and Laravel 10, supported by robust authentication provided by Laravel Sanctum.",
     },
     {
       name: "keywords",

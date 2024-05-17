@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bg-zinc-100 text-deep-blush-950 dark:bg-zinc-900 dark:text-deep-blush-100 font-roboto h-screen grid grid-rows-[auto_auto] grid-cols-1"
+    class="bg-zinc-100 text-deep-blush-950 dark:bg-zinc-900 dark:text-deep-blush-100 font-roboto h-screen grid grid-rows-[100vh_auto] grid-cols-1"
   >
     <DefaultHeader />
     <slot />

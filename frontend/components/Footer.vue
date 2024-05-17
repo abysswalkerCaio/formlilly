@@ -1,6 +1,6 @@
 <template>
   <footer
-    class="flex flex-col gap-10 bg-zinc-400 dark:bg-zinc-950 text-deep-blush-950 dark:text-deep-blush-100 py-12 px-10 md:px-32"
+    class="flex flex-col gap-10 bg-zinc-200 dark:bg-zinc-950 text-deep-blush-950 dark:text-deep-blush-100 py-12 px-10 md:px-32"
   >
     <div
       class="flex flex-col-reverse md:flex-row md:justify-between gap-10 border-b border-b-zinc-500 pb-14"
